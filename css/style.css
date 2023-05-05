@@ -1,4 +1,51 @@
-p {
+h1 {
   color: coral;
   font-size: 50px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: honeydew;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #7fffd4;
+  font-size: 30px;
+  font-style: italic;
+}
+
+p {
+  color: black;
+  font-size: 14px;
+}
+
+.artical-para {
+  color: rgb(233, 17, 107);
+  font-size: 14px;
+}
+
+h2 p {
+  color: rgb(144, 120, 24);
+  text-shadow: rgb(227, 18, 11);
+}
+
+.link-div {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #d19bec;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid gray;
+  padding: 0.5rem 0.75rem;
+  vertical-align: middle;
 }
