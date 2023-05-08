@@ -49,3 +49,21 @@ table td, table th {
   padding: 0.5rem 0.75rem;
   vertical-align: middle;
 }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: blue;
+}
+
+a:visited {
+  color: rgb(17, 243, 29);
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: yellow
+}

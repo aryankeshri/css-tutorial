@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300&display=swap');
 
 body {
   padding: 18%;
   font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', "Noto Sans Devanagari", sans-serif;
 }
 
 /* input, button {
@@ -11,7 +12,7 @@ body {
 } */
 
 p {
-  /* text-align: justify; */
+  text-align: justify;
   text-indent: 2em;
   line-height: 1.2;
   /* letter-spacing: 0.1em; */
